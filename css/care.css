@@ -1,9 +1,17 @@
-/* Care Hub accent layer — mint-teal (hands + heart motif). */
+/* Care Hub identity — deep mint-teal, hands+heart motif.
+   Surfaces shift from the brand navy to a saturated dark teal/jade so the
+   whole product feels warmer and distinct from Compliance + FM. */
 :root, [data-theme="dark"] {
+  --bg:        6 32 30;        /* deep jade-teal */
+  --card:      11 50 46;       /* mint-tinted card */
   --accent:    49 198 169;
-  --accent-2: 138 92 246;
+  --accent-2:  91 141 239;
+  --hero-grad: linear-gradient(135deg, rgb(6 32 30) 0%, rgb(15 70 64) 50%, rgb(11 50 46) 100%);
 }
 [data-theme="light"] {
+  --bg:        228 247 242;
+  --card:      255 255 255;
   --accent:    15 145 130;
-  --accent-2: 124 79 232;
+  --accent-2:  91 141 239;
+  --hero-grad: linear-gradient(135deg, rgb(228 247 242) 0%, rgb(190 232 222) 50%, rgb(255 255 255) 100%);
 }

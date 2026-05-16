@@ -1,9 +1,16 @@
-/* Compliance Hub accent layer — cool blue (shield motif). */
+/* Compliance Hub identity — deep ocean navy, cool blue accent, shield motif.
+   Surfaces stay close to the brand navy base, with a slight cool-blue tilt. */
 :root, [data-theme="dark"] {
+  --bg:        7 16 35;       /* deeper navy than base, more saturated blue */
+  --card:      14 26 56;      /* cool-blue card elevation */
   --accent:    91 141 239;
   --accent-2: 138 92 246;
+  --hero-grad: linear-gradient(135deg, rgb(7 16 35) 0%, rgb(20 38 80) 50%, rgb(14 26 56) 100%);
 }
 [data-theme="light"] {
+  --bg:        237 244 255;
+  --card:      255 255 255;
   --accent:    28 96 168;
   --accent-2: 124 79 232;
+  --hero-grad: linear-gradient(135deg, rgb(237 244 255) 0%, rgb(207 224 248) 50%, rgb(255 255 255) 100%);
 }

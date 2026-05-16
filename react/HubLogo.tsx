@@ -104,19 +104,32 @@ function FMMark({ accent, accent2 }: { accent: string; accent2: string }) {
 }
 
 function SuiteMark() {
-  // Glowing H mark with the brand gradient — works in both light & dark
+  // Heart containing an H letterform — the unified HubSuite mark.
+  // Heart fill = brand gradient; H letterform = white on dark, navy on light.
   return (
     <g>
       <defs>
         <SuiteGradient id="hubGradient" />
+        <SuiteGradient id="hubGradientHalo" />
       </defs>
-      {/* glow halo */}
-      <circle cx="32" cy="32" r="26" fill="url(#hubGradient)" opacity="0.12" />
-      {/* H letterform — two vertical bars + crossbar with rounded caps */}
-      <g stroke="url(#hubGradient)" strokeWidth={6.5} strokeLinecap="round" fill="none">
-        <line x1="18" y1="14" x2="18" y2="50" />
-        <line x1="46" y1="14" x2="46" y2="50" />
-        <line x1="18" y1="32" x2="46" y2="32" />
+      {/* soft halo */}
+      <circle cx="32" cy="32" r="28" fill="url(#hubGradientHalo)" opacity="0.14" />
+
+      {/* Heart silhouette — two lobes meeting at top, pointed at bottom */}
+      <path
+        d="M32 56
+           C 13 44, 5 32, 11 20
+           C 15 13, 26 12, 32 20
+           C 38 12, 49 13, 53 20
+           C 59 32, 51 44, 32 56 Z"
+        fill="url(#hubGradient)"
+      />
+
+      {/* H letterform inside the heart — sits between the lobes */}
+      <g stroke="white" strokeWidth={4.6} strokeLinecap="round" fill="none">
+        <line x1="22" y1="24" x2="22" y2="44" />
+        <line x1="42" y1="24" x2="42" y2="44" />
+        <line x1="22" y1="34" x2="42" y2="34" />
       </g>
     </g>
   );

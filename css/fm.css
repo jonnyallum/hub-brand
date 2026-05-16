@@ -1,9 +1,17 @@
-/* FM Control Hub accent layer — operations green + violet secondary. */
+/* FM Control Hub identity — operations green sweeping into violet.
+   The signature look from the mockup: green→purple gradient hero, the most
+   visually distinct of the three product surfaces. */
 :root, [data-theme="dark"] {
-  --accent:    94 200 110;
-  --accent-2: 138 92 246;
+  --bg:        9 28 14;        /* deep forest base */
+  --card:      14 42 26;       /* green-tinted card */
+  --accent:    94 200 110;     /* operations green */
+  --accent-2: 138 92 246;      /* violet */
+  --hero-grad: linear-gradient(135deg, rgb(9 70 32) 0%, rgb(34 122 58) 35%, rgb(72 56 158) 75%, rgb(98 46 184) 100%);
 }
 [data-theme="light"] {
+  --bg:        232 247 234;
+  --card:      255 255 255;
   --accent:    48 142 70;
   --accent-2:  99 71 199;
+  --hero-grad: linear-gradient(135deg, rgb(196 232 200) 0%, rgb(168 215 175) 35%, rgb(214 199 247) 75%, rgb(196 178 240) 100%);
 }
