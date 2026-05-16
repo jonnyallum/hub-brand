@@ -1,0 +1,24 @@
+{
+  "name": "@jonnyai/hub-brand",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared brand system for the HubSuite family (Compliance Hub, Care Hub, FM Control Hub, HubSuite landing).",
+  "main": "react/index.ts",
+  "types": "react/index.ts",
+  "files": [
+    "tokens",
+    "css",
+    "logos",
+    "react",
+    "tailwind.preset.cjs"
+  ],
+  "peerDependencies": {
+    "react": ">=18",
+    "tailwindcss": ">=3.4"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonnyallum/hub-brand.git"
+  }
+}

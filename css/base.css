@@ -1,0 +1,70 @@
+/* HubSuite shared base tokens.
+   Consumed by every hub app + the HubSuite landing.
+   Defines the dark default + light override, plus shared status colors.
+   Per-hub --accent / --accent-2 are layered on top via /brand/css/<hub>.css.
+*/
+
+:root,
+[data-theme="dark"] {
+  /* canvas */
+  --brand-navy:        11 18 38;
+  --brand-navy-elev:   17 25 53;
+  --brand-ink:        232 238 252;
+  --brand-ink-muted:  150 162 188;
+
+  /* primaries */
+  --brand-cyan:        39 217 217;
+  --brand-blue:        91 141 239;
+  --brand-violet:     138 92 246;
+
+  /* gradient used for the HubSuite mark + hero accents */
+  --brand-gradient: linear-gradient(135deg,
+    rgb(39 217 217) 0%,
+    rgb(91 141 239) 45%,
+    rgb(138 92 246) 100%);
+
+  /* status (RAG + alerts) — identical across products */
+  --status-success:    74 222 128;
+  --status-warning:   251 191 36;
+  --status-danger:    248 113 113;
+  --status-info:       96 165 250;
+
+  /* surface aliases */
+  --bg:    var(--brand-navy);
+  --fg:    var(--brand-ink);
+  --muted: var(--brand-ink-muted);
+  --card:  var(--brand-navy-elev);
+
+  /* default accent — overridden by per-hub layer */
+  --accent:    39 217 217;
+  --accent-2: 138 92 246;
+}
+
+[data-theme="light"] {
+  --brand-navy:        11 18 38;
+  --brand-navy-elev:  247 246 242;
+  --brand-ink:         14 27 47;
+  --brand-ink-muted:   92 101 120;
+
+  --brand-cyan:        32 178 178;
+  --brand-blue:        91 141 239;
+  --brand-violet:     124 79 232;
+
+  --brand-gradient: linear-gradient(135deg,
+    rgb(32 178 178) 0%,
+    rgb(91 141 239) 45%,
+    rgb(124 79 232) 100%);
+
+  --status-success:    22 163 74;
+  --status-warning:   202 138 4;
+  --status-danger:    185 28 28;
+  --status-info:       37 99 235;
+
+  --bg:    247 246 242;
+  --fg:    var(--brand-ink);
+  --muted: var(--brand-ink-muted);
+  --card:  255 255 255;
+
+  --accent:    32 178 178;
+  --accent-2: 124 79 232;
+}

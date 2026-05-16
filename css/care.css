@@ -1,0 +1,9 @@
+/* Care Hub accent layer — mint-teal (hands + heart motif). */
+:root, [data-theme="dark"] {
+  --accent:    49 198 169;
+  --accent-2: 138 92 246;
+}
+[data-theme="light"] {
+  --accent:    15 145 130;
+  --accent-2: 124 79 232;
+}

@@ -1,0 +1,9 @@
+/* Compliance Hub accent layer — cool blue (shield motif). */
+:root, [data-theme="dark"] {
+  --accent:    91 141 239;
+  --accent-2: 138 92 246;
+}
+[data-theme="light"] {
+  --accent:    28 96 168;
+  --accent-2: 124 79 232;
+}

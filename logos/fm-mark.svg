@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256" role="img" aria-label="FM Control Hub">
+  <g stroke="#308e46" stroke-width="2.5" stroke-linejoin="round" fill="none">
+    <path d="M32 4 L56 18 L56 46 L32 60 L8 46 L8 18 Z"/>
+    <rect x="18" y="24" width="14" height="22" stroke-width="2.2"/>
+    <path d="M21 28 H23 M27 28 H29 M21 33 H23 M27 33 H29 M21 38 H23 M27 38 H29" stroke-width="1.6"/>
+  </g>
+  <circle cx="42" cy="38" r="6" fill="none" stroke="#6347c7" stroke-width="2.2"/>
+  <circle cx="42" cy="38" r="2" fill="#6347c7"/>
+  <path d="M42 30 V32 M42 44 V46 M34 38 H36 M48 38 H50 M36.3 32.3 L37.7 33.7 M46.3 42.3 L47.7 43.7 M36.3 43.7 L37.7 42.3 M46.3 33.7 L47.7 32.3" stroke="#6347c7" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,9 @@
+/* FM Control Hub accent layer — operations green + violet secondary. */
+:root, [data-theme="dark"] {
+  --accent:    94 200 110;
+  --accent-2: 138 92 246;
+}
+[data-theme="light"] {
+  --accent:    48 142 70;
+  --accent-2:  99 71 199;
+}

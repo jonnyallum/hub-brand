@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="256" height="256" role="img" aria-label="Compliance Hub">
+  <g stroke="#1c60a8" stroke-width="2.5" stroke-linejoin="round" fill="none">
+    <path d="M32 4 L56 18 L56 46 L32 60 L8 46 L8 18 Z"/>
+    <path d="M32 16 L42 20 L42 32 C42 39 37 44 32 47 C27 44 22 39 22 32 L22 20 Z" stroke-width="2.2"/>
+    <path d="M27 28 L30 31 L36 25" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M27 36 L30 39 L36 33" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+</svg>

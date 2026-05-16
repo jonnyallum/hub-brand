@@ -1,0 +1,9 @@
+/* HubSuite landing — uses the full gradient, no single accent. */
+:root, [data-theme="dark"] {
+  --accent:    39 217 217;
+  --accent-2: 138 92 246;
+}
+[data-theme="light"] {
+  --accent:    32 178 178;
+  --accent-2: 124 79 232;
+}
